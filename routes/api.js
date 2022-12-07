@@ -24,6 +24,7 @@ module.exports = (app) => {
     });
 
     // TODO: Perform Stripe Payment Flow
+    // TODO: Update master list to reflect ticket sale
 
     // Persist ticket sale in database with a generated reference id so user can lookup ticket
     const ticketReservation = { id: v4(), ...req.body };
