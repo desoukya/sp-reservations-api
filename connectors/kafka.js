@@ -23,16 +23,10 @@ const startKafkaProducer = async () => {
 };
 
 const sendKafkaMessage = async (messageType, message) => {
-  // determine which validation schema to use
-  const validatorPayload = {
-    [messages.TICKET_PENDING]: validate.pendingTicketMessage,
-    [messages.TICKET_RESERVED]: validate.reservedTicketMessage,
-  }[messageType];
-
   // validate kafka message against schema prior to sending
-  const validationError = validatorPayload(message);
+  const validationError = validate.kafkaMessage(message);
   if (validationError) {
-    return Promise.reject(validationError.message);
+    return Promise.reject(validationError);
   }
 
   // send message to kafka broker

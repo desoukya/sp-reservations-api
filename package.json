@@ -1,10 +1,11 @@
 {
-  "name": "sp-shop-api",
+  "name": "sp-reservations-api",
   "version": "1.0.0",
-  "description": "GIU Software Project Shop API & Kafka Producer",
+  "description": "GIU Software Project Reservations API & Kafka Producer",
   "main": "index.js",  
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "load": "k6 run tests/k6/reservation/reservation.spec.js"
   },
   "dependencies": {
     "express": "4.18.2",
@@ -16,6 +17,7 @@
     "dotenv": "16.0.1"
   },
   "devDependencies": {
-    "nodemon": "2.0.20"
+    "nodemon": "2.0.20",
+    "k6": "0.0.0"
   }
 }
