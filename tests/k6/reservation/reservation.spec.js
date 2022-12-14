@@ -10,7 +10,7 @@ export const options = {
 };
 
 export default function () {
-  const res = http.get('http://localhost:3000/api/v1/reservation');
+  const res = http.get('http://localhost:3000/api/v1/health');
   // assertions
   check(res, { 'status was 200': (r) => r.status == 200 });
   sleep(1);

@@ -5,19 +5,9 @@ const { validateTicketReservationDto } = require('../validation/reservation');
 const messagesType = require('../constants/messages');
 
 module.exports = (app) => {
-  // HTTP endpoint to retrieve existing user
-  app.get('/api/v1/reservation', async (req, res) => {
-    console.log('API Hit')
-    return res.json({
-      message: 'Ticket Purchase Successful',
-      email: 'desoukya@gmail.com',
-      matchNumber: 2,
-      tickets: [{
-        category: 2,
-        quantity: 2,
-        price: 125
-      }],
-    });
+  // HTTP endpoint to test health performance of service
+  app.get('/api/v1/health', async (req, res) => {
+    return res.send('Service Health');
   });
 
   // HTTP endpoint to create new user
