@@ -6,15 +6,18 @@
     "location": "Al Bayt Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 5,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -29,15 +32,18 @@
     "location": "Khalifa International Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -52,15 +58,18 @@
     "location": "Al Thumama Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -75,15 +84,18 @@
     "location": "Ahmad Bin Ali Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -98,15 +110,18 @@
     "location": "Lusail Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -121,15 +136,18 @@
     "location": "Education City Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -144,15 +162,18 @@
     "location": "Stadium 974",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -167,15 +188,18 @@
     "location": "Al Janoub Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -190,15 +214,18 @@
     "location": "Al Bayt Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -213,15 +240,18 @@
     "location": "Khalifa International Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -236,15 +266,18 @@
     "location": "Al Thumama Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -259,15 +292,18 @@
     "location": "Ahmad Bin Ali Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -282,15 +318,18 @@
     "location": "Al Janoub Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -305,15 +344,18 @@
     "location": "Education City Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -328,15 +370,18 @@
     "location": "Stadium 974",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -351,15 +396,18 @@
     "location": "Lusail Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -374,15 +422,18 @@
     "location": "Ahmad Bin Ali Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -397,15 +448,18 @@
     "location": "Al Thumama Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -420,15 +474,18 @@
     "location": "Khalifa International Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -443,15 +500,18 @@
     "location": "Al Bayt Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -466,15 +526,18 @@
     "location": "Al Janoub Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -489,15 +552,18 @@
     "location": "Education City Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -512,15 +578,18 @@
     "location": "Stadium 974",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -535,15 +604,18 @@
     "location": "Lusail Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -558,15 +630,18 @@
     "location": "Ahmad Bin Ali Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -581,15 +656,18 @@
     "location": "Al Thumama Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -604,15 +682,18 @@
     "location": "Khalifa International Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -627,15 +708,18 @@
     "location": "Al Bayt Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -650,15 +734,18 @@
     "location": "Al Janoub Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -673,15 +760,18 @@
     "location": "Education City Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -696,15 +786,18 @@
     "location": "Stadium 974",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -719,15 +812,18 @@
     "location": "Lusail Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -742,15 +838,18 @@
     "location": "Khalifa International Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -765,15 +864,18 @@
     "location": "Al Bayt Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -788,15 +890,18 @@
     "location": "Ahmad Bin Ali Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -811,15 +916,18 @@
     "location": "Al Thumama Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -834,15 +942,18 @@
     "location": "Al Janoub Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -857,15 +968,18 @@
     "location": "Education City Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -880,15 +994,18 @@
     "location": "Stadium 974",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -903,15 +1020,18 @@
     "location": "Lusail Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -926,15 +1046,18 @@
     "location": "Ahmad Bin Ali Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -949,15 +1072,18 @@
     "location": "Al Thumama Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -972,15 +1098,18 @@
     "location": "Khalifa International Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -995,15 +1124,18 @@
     "location": "Al Bayt Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1018,15 +1150,18 @@
     "location": "Al Janoub Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1041,15 +1176,18 @@
     "location": "Education City Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1064,15 +1202,18 @@
     "location": "Stadium 974",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1087,15 +1228,18 @@
     "location": "Lusail Stadium",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1110,15 +1254,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1133,15 +1280,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1156,15 +1306,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1179,15 +1332,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1202,15 +1358,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1225,15 +1384,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1248,15 +1410,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1271,15 +1436,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1294,15 +1462,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1317,15 +1488,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1340,15 +1514,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1363,15 +1540,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1386,15 +1566,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1409,15 +1592,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1432,15 +1618,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },
@@ -1455,15 +1644,18 @@
     "location": "TBA",
     "availability": {
       "category1": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 75
       },
       "category2": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 125
       },
       "category3": {
-        "count": 20,
+        "available": 20,
+        "pending": 0,
         "price": 195
       }            
     },

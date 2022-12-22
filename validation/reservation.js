@@ -11,6 +11,10 @@ const reservationValidation = {
       email: Joi.string().required(),
       matchNumber: Joi.number().strict().required(),
       tickets,
+      cardNumber: Joi.string().required(),
+      cardExpirationMonth: Joi.number().required(),
+      cardExpirationYear: Joi.number().required(),
+      cardCvc: Joi.number().required(),
     }).required().unknown(false);
     return schema.validate(reservation).error;
   },

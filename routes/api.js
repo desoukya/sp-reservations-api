@@ -1,3 +1,5 @@
+const Stripe = require('stripe');
+const stripe = Stripe('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
 const { v4 } = require('uuid');
 const db = require('../connectors/postgres');
 const { sendKafkaMessage } = require('../connectors/kafka');
@@ -29,22 +31,43 @@ module.exports = (app) => {
         }
       });
   
-      // TODO: Perform Stripe Payment Flow
-      // TODO: Undo (cancel) pending ticket if payment fails
-      // TODO: Update master list to reflect reserved ticket sale
-  
+      // Perform Stripe Payment Flow
+      try {
+        const token = await stripe.tokens.create({
+          card: {
+            number: req.input.cardNumber,
+            exp_month: req.input.cardExpirationMonth,
+            exp_year: req.input.cardExpirationYear,
+            cvc: req.input.cardCvc,
+          },
+        });
+        await stripe.charges.create({
+          amount: req.input.tickets.quantity * req.input.tickets.price,
+          currency: 'usd',
+          source: token,
+          description: 'FIFA World Cup Ticket Reservation',
+        });
+        await sendKafkaMessage(messagesType.TICKET_RESERVED, {
+          meta: { action: messagesType.TICKET_RESERVED},
+          body: { 
+            matchNumber: req.body.matchNumber,
+            tickets: req.body.tickets,
+          }
+        });
+      } catch (stripeError) {
+        // Send cancellation message indicating ticket sale failed
+        await sendKafkaMessage(messagesType.TICKET_CANCELLED, {
+          meta: { action: messagesType.TICKET_CANCELLED},
+          body: { 
+            matchNumber: req.body.matchNumber,
+            tickets: req.body.tickets,
+          }
+        });
+      }
+      
       // Persist ticket sale in database with a generated reference id so user can lookup ticket
       const ticketReservation = { id: v4(), ...req.body };
       // const reservation = await db('reservations').insert(ticketReservation).returning('*');
-  
-      // Send message indicating ticket sale is final
-      await sendKafkaMessage(messagesType.TICKET_RESERVED, {
-        meta: { action: messagesType.TICKET_RESERVED},
-        body: { 
-          matchNumber: req.body.matchNumber,
-          tickets: req.body.tickets,
-        }
-      });
   
       // Return success response to client
       return res.json({
