@@ -1,5 +1,5 @@
-const Stripe = require('stripe');
-const stripe = Stripe('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
+require('dotenv').config();
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const { v4 } = require('uuid');
 const db = require('../connectors/postgres');
 const { sendKafkaMessage } = require('../connectors/kafka');
@@ -35,16 +35,16 @@ module.exports = (app) => {
       try {
         const token = await stripe.tokens.create({
           card: {
-            number: req.input.cardNumber,
-            exp_month: req.input.cardExpirationMonth,
-            exp_year: req.input.cardExpirationYear,
-            cvc: req.input.cardCvc,
+            number: req.body.cardNumber,
+            exp_month: req.body.cardExpirationMonth,
+            exp_year: req.body.cardExpirationYear,
+            cvc: req.body.cardCvc,
           },
         });
         await stripe.charges.create({
-          amount: req.input.tickets.quantity * req.input.tickets.price,
+          amount: req.body.tickets.quantity * req.body.tickets.price,
           currency: 'usd',
-          source: token,
+          source: token.id,
           description: 'FIFA World Cup Ticket Reservation',
         });
         await sendKafkaMessage(messagesType.TICKET_RESERVED, {
@@ -63,7 +63,7 @@ module.exports = (app) => {
             tickets: req.body.tickets,
           }
         });
-        return res.status(400).send('could not process payment');
+        return res.status(400).send(`could not process payment: ${stripeError.message}`);
       }
       
       // Persist ticket sale in database with a generated reference id so user can lookup ticket

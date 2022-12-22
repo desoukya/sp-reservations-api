@@ -14,7 +14,7 @@ const reservationValidation = {
       cardNumber: Joi.string().required(),
       cardExpirationMonth: Joi.number().required(),
       cardExpirationYear: Joi.number().required(),
-      cardCvc: Joi.number().required(),
+      cardCvc: Joi.string().required(),
     }).required().unknown(false);
     return schema.validate(reservation).error;
   },
