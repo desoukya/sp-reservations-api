@@ -35,10 +35,10 @@ module.exports = (app) => {
       try {
         const token = await stripe.tokens.create({
           card: {
-            number: req.body.cardNumber,
-            exp_month: req.body.cardExpirationMonth,
-            exp_year: req.body.cardExpirationYear,
-            cvc: req.body.cardCvc,
+            number: req.body.card.number,
+            exp_month: req.body.card.expirationMonth,
+            exp_year: req.body.card.expirationYear,
+            cvc: req.body.card.cvc,
           },
         });
         await stripe.charges.create({
