@@ -63,6 +63,7 @@ module.exports = (app) => {
             tickets: req.body.tickets,
           }
         });
+        return res.status(400).send('could not process payment');
       }
       
       // Persist ticket sale in database with a generated reference id so user can lookup ticket
