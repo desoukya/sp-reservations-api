@@ -67,8 +67,15 @@ module.exports = (app) => {
       }
       
       // Persist ticket sale in database with a generated reference id so user can lookup ticket
-      const ticketReservation = { id: v4(), ...req.body };
-      // const reservation = await db('reservations').insert(ticketReservation).returning('*');
+      const ticketReservation = { 
+        id: v4(), 
+        email: req.body.email,
+        matchNumber: req.body.matchNumber,
+        category: req.body.tickets.category,
+        quantity: req.body.tickets.quantity,
+        price: req.body.tickets.price,
+      };
+      await db('reservations').insert(ticketReservation);
   
       // Return success response to client
       return res.json({

@@ -13,8 +13,8 @@ const reservationValidation = {
       tickets,
       card: Joi.object().keys({
         number: Joi.string().required(),
-        expirationMonth: Joi.number().required(),
-        expirationYear: Joi.number().required(),
+        expirationMonth: Joi.number().strict().required(),
+        expirationYear: Joi.number().strict().required(),
         cvc: Joi.string().required(),
       }).required().unknown(false),
     }).required().unknown(false);
