@@ -1,7 +1,7 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-const apiRoutes = require('./routes/api');
+const apiRoutes = require('./api');
 const { startKafkaProducer } = require('./connectors/kafka');
 
 // Config setup to parse JSON payloads from HTTP POST request body
