@@ -4,7 +4,7 @@
   "description": "GIU Software Project Reservations API & Kafka Producer",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon api/index.js",
     "load": "k6 run tests/k6/reservation/reservation.spec.js"
   },
   "dependencies": {
